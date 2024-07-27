@@ -1,7 +1,7 @@
 // Task 11_1
 
 
-function elayedFunction(text, delay) {
+function delayedFunction(text, delay) {
     setTimeout(() => {
         console.log(text);
     }, delay);
