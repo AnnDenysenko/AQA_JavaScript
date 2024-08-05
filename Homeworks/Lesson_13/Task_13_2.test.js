@@ -1,4 +1,6 @@
-const axios = require("/Users/annadenisenko/AQA_JavaScript/jest.setup"); // Import the configured Axios instance
+require('module-alias/register');
+const axios = require('@setup');
+ // Import the configured Axios instance
 
 describe('JSONPlaceholder API Tests', () => {
 
