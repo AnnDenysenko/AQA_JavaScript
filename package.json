@@ -19,6 +19,7 @@
 		"decimal.js": "^10.4.3",
 		"inquirer": "^9.2.23",
 		"lodash": "^4.17.21",
+		"module-alias": "^2.2.3",
 		"prompt-sync": "^4.2.0",
 		"readline-sync": "^1.4.10",
 		"rl-sync": "^1.0.2"
@@ -43,6 +44,8 @@
 		"typescript-eslint": "^7.18.0"
 	},
 	"jest": {
-		"setupFilesAfterEnv": ["<rootDir>/jest.setup.js"]
-	  }
+		"setupFilesAfterEnv": [
+			"<rootDir>/jest.setup.js"
+		]
+	}
 }
