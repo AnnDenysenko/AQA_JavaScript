@@ -40,12 +40,5 @@ axiosInstance.interceptors.response.use(response => {
   return Promise.reject(error);
 });
 
-
 // Export the Axios instance
 module.exports = axiosInstance;
-module.exports = {
-  setupFilesAfterEnv: ['https://github.com/AnnDenysenko/AQA_JavaScript/jest.setup.js'],
-  moduleNameMapper: {
-    '^@setup$': 'https://github.com/AnnDenysenko/AQA_JavaScript/jest.setup.js'
-  }
-};
