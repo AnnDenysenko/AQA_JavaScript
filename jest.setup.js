@@ -45,6 +45,6 @@ axiosInstance.interceptors.response.use(response => {
 module.exports = axiosInstance;
 module.exports = {
   moduleNameMapper: {
-    '^@setup$': 'https://github.com/AnnDenysenko/AQA_JavaScript/jest.setup'
+    '^@setup$': 'https://github.com/AnnDenysenko/AQA_JavaScript/jest.setup.js'
   }
 };
