@@ -49,7 +49,7 @@
 	},
 	"jest": {
 	  "setupFilesAfterEnv": [
-		"<rootDir>/jest.setup.js"
+		"https://github.com/AnnDenysenko/AQA_JavaScript/jest.setup.js"
 	  ]
 	}
   }
