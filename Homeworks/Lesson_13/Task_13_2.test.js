@@ -1,7 +1,8 @@
 // const axios = require("/Users/annadenisenko/AQA_JavaScript/jest.setup"); // Import the configured Axios instance
 
-require('module-alias/register');
-const axios = require('@setup');
+// Correct path if jest.setup.js is in the root directory
+const axios = require('../jest.setup');
+
 
 describe('JSONPlaceholder API Tests', () => {
 

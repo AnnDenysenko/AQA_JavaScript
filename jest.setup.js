@@ -40,13 +40,5 @@ axiosInstance.interceptors.response.use(response => {
   return Promise.reject(error);
 });
 
-// // Export the Axios instance
-// module.exports = axiosInstance;
-
-module.exports = {
-  setupFiles: ['<rootDir>/setupJest.js'],
-  moduleNameMapper: {
-    '^@setup$': '<rootDir>/jest.setup.js'
-  }
-};
-
+// Export the Axios instance
+module.exports = axiosInstance;

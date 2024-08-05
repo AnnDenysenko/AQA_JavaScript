@@ -22,13 +22,8 @@
 		"module-alias": "^2.2.3",
 		"prompt-sync": "^4.2.0",
 		"readline-sync": "^1.4.10",
-		"rl-sync": "^1.0.2" 
+		"rl-sync": "^1.0.2"
 	},
-
-  "_moduleAliases": {
-    "@setup": "./jest.setup.js"
-  },
-  
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/AnnDenysenko/AQA_JavaScript.git"
